@@ -1,6 +1,6 @@
 // craco.config.js
 module.exports = {
-    base: '/ladonagatona/',
+    base: '/client/',
     style: {
       postcss: {
         plugins: [
