@@ -136,7 +136,7 @@ const addCheckout = (id) => {
                     <div classNameName="mt-10" id="payment-form"></div>
                     :
                     <Link to="/ladonagatona/crear-cuenta">
-                      <button type="button" className="mt-10 inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+                      <button type="button" className="mt-10 inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-yellow-600 hover:bg-yellow-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
                         Para adquirir, regístrate primero
                       </button>
                     </Link>

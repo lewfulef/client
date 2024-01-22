@@ -27,7 +27,7 @@ export default function PrivateRoute({ component: Component, ...props }) {
             return authStatus ? 
                 (<Component {...props} />)
                 :
-                (<Redirect to="/ladonagatona" />)
+                (<Redirect to="/client" />)
             }
         } />
     )
