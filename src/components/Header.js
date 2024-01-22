@@ -39,13 +39,13 @@ export default function Header() {
                 <div className="border-t border-gray-200 py-6 px-4 space-y-6">
 
                   <div className="flow-root" onClick={toggleMobileSidebar}>
-                    <Link to="/ladonagatona/">
+                    <Link to="/client/">
                       <img className="h-8 w-auto" src={GuitarLogo} alt="Guitar LATAM" />
                     </Link>
                   </div>
 
                   <div className="flow-root" onClick={toggleMobileSidebar}>
-                    <Link to="/ladonagatona/catalogo">
+                    <Link to="/client/catalogo">
                       <a href="#" className="-m-2 p-2 block font-medium text-gray-900">Catálogo</a>
                     </Link>
                   </div>
@@ -57,7 +57,7 @@ export default function Header() {
                     ctxUser.user?.name ?
                       <>
                         <div className="flow-root" onClick={toggleMobileSidebar}>
-                          <Link to="/ladonagatona/perfil">
+                          <Link to="/client/perfil">
                             <a href="#" className="-m-2 p-2 block font-medium text-gray-900">Mi perfil</a>
                           </Link>
                         </div>
@@ -65,12 +65,12 @@ export default function Header() {
                       :
                       <>
                         <div className="flow-root" onClick={toggleMobileSidebar}>
-                          <Link to="/ladonagatona/iniciar-sesion">
+                          <Link to="/client/iniciar-sesion">
                             <a href="#" className="-m-2 p-2 block font-medium text-gray-900">Iniciar sesión</a>
                           </Link>
                         </div>
                         <div className="flow-root" onClick={toggleMobileSidebar}>
-                          <Link to="/ladonagatona/iniciar-sesion">
+                          <Link to="/client/iniciar-sesion">
                             <a href="#" className="-m-2 p-2 block font-medium text-gray-900">Crear cuenta</a>
                           </Link>
                         </div>
@@ -105,7 +105,7 @@ export default function Header() {
                   </svg>
                 </button>
 
-                <Link to="/ladonagatona/">
+                <Link to="/client/">
                   <div className="ml-4 mr-4 flex lg:ml-0">
 
                     <img className="h-8 w-auto mr-3" src={GuitarLogo} alt="Guitar LATAM" />
@@ -120,7 +120,7 @@ export default function Header() {
 
                     <div className="flex">
                       <div className="relative flex">
-                        <Link to="/ladonagatona/catalogo" className="border-transparent text-gray-700 hover:text-gray-800 relative z-10 flex items-center transition-colors ease-out duration-200 text-sm font-medium border-b-2 -mb-px pt-px" aria-expanded="false">
+                        <Link to="/client/catalogo" className="border-transparent text-gray-700 hover:text-gray-800 relative z-10 flex items-center transition-colors ease-out duration-200 text-sm font-medium border-b-2 -mb-px pt-px" aria-expanded="false">
                           Catálogo de Donas
                         </Link>
                       </div>
@@ -144,7 +144,7 @@ export default function Header() {
 
                       <>
                         <div className="hidden lg:flex lg:flex-1 lg:items-center lg:justify-end lg:space-x-6">
-                          <Link to="/ladonagatona/perfil">
+                          <Link to="/client/perfil">
                             <a href="#" className="text-sm font-medium text-gray-700 hover:text-gray-800">Tu perfil</a>
                           </Link>
                           <span className="h-6 w-px bg-gray-200" aria-hidden="true"></span>
@@ -154,11 +154,11 @@ export default function Header() {
 
                       :
                       <div className="hidden lg:flex lg:flex-1 lg:items-center lg:justify-end lg:space-x-6">
-                        <Link to="/ladonagatona/iniciar-sesion" className="text-sm font-medium text-gray-700 hover:text-gray-800">
+                        <Link to="/client/iniciar-sesion" className="text-sm font-medium text-gray-700 hover:text-gray-800">
                           Iniciar sesión
                         </Link>
                         <span className="h-6 w-px bg-gray-200" aria-hidden="true"></span>
-                        <Link to="/ladonagatona/crear-cuenta" className="text-sm font-medium text-gray-700 hover:text-gray-800">
+                        <Link to="/client/crear-cuenta" className="text-sm font-medium text-gray-700 hover:text-gray-800">
                           Crear cuenta
                         </Link>
                       </div>

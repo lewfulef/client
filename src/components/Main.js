@@ -26,7 +26,7 @@ export default function Main() {
                   </p>
                   <div className="mt-10 max-w-sm mx-auto sm:max-w-none flex justify-center">
                     <div className="space-y-4 sm:space-y-0 sm:mx-auto sm:inline-grid  sm:gap-5">
-                      <Link to="/ladonagatona/catalogo">
+                      <Link to="/client/catalogo">
                         <a className="flex items-center justify-center px-4 py-3 border border-transparent text-base text-white font-medium rounded-md shadow-sm bg-yellow-500 hover:bg-yellow-300 sm:px-8">
                           Ver catálogo de donas
                         </a>

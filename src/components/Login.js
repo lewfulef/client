@@ -44,7 +44,7 @@ export default function Login() {
         </h2>
         <p className="mt-2 text-center text-sm text-gray-600">
           ¿Aún sin cuenta? &nbsp;
-          <Link to="/ladonagatona/crear-cuenta">
+          <Link to="/client/crear-cuenta">
             <a className="font-medium text-yellow-500 hover:text-yellow-300">
               Regístrate aquí.
             </a>
@@ -69,7 +69,7 @@ export default function Login() {
                   type="email" 
                   onChange={(e) => { handleChange(e) }}
                   required 
-                  className="appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" />
+                  className="appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:ring-yellow-500 focus:border-yellow-500 sm:text-sm" />
               </div>
             </div>
 
@@ -84,7 +84,7 @@ export default function Login() {
                   type="password"
                   required 
                   onChange={(e) => { handleChange(e) }}
-                  className="appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" />
+                  className="appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:ring-yellow-500 focus:border-yellow-500 sm:text-sm" />
               </div>
             </div>
 
