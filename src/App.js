@@ -39,20 +39,20 @@ function App() {
             <Switch>
 
               {/* RUTAS PRIVADAS */}
-              <PrivateRoute exact path="/ladonagatona/perfil" component={ Profile } />          
+              <PrivateRoute exact path="/perfil" component={ Profile } />          
 
               {/* RUTAS DE AUTENTICACIÓN */}
-              <AuthRoute exact path="/ladonagatona/iniciar-sesion" component={Login} />
-              <AuthRoute exact path="/ladonagatona/crear-cuenta" component={Register} />
+              <AuthRoute exact path="/iniciar-sesion" component={Login} />
+              <AuthRoute exact path="/crear-cuenta" component={Register} />
 
               {/* RUTAS ESTÁTICAS */}
-              <PublicRoute exact path="/ladonagatona/catalogo" component={Catalog} />
+              <PublicRoute exact path="/catalogo" component={Catalog} />
 
               {/* RUTAS DINÁMICAS */}
-              <PublicRoute exact path="/ladonagatona/:productId" component={Product} />
+              <PublicRoute exact path="/:productId" component={Product} />
 
               {/* RUTA BASE */}
-              <PublicRoute exact path="/ladonagatona/" component={Main} />
+              <PublicRoute exact path="/" component={Main} />
 
             </Switch>
 
