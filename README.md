@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+# Proyecto 5: E-Commerce "La Dona Gatona" 🍩
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este proyecto contiene la parte del cliente de un e-commerce avocado a la venta de donas.
 
-## Available Scripts
+## Despliegue
 
-In the project directory, you can run:
+Puedes ver el preyecto [dando click en este enlace.](https://lewfulef.github.io/client//)
 
-### `npm start`
+## Tecnologías incorporadas
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- create-react-app (React.js)
+- Tailwind CSS (Manejo de estilos)
+- Express.js (Node)
+- MongoDB
+- Cloudinary (Manejo de imágenes)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Instalación
 
-### `npm test`
+Para realizar la instalación de este proyecto, es necesario realizar `clone` o `fork` de este repositorio.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Posteriormente, abrir dos terminales. El primero será para tratar `create-react-app` y el otro para `express.js`.
 
-### `npm run build`
+`Terminal 1`
+```shell
+$ cd client
+$ npm install
+$ npm run start
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Para abrir la parte del servidor [ingresando en este enlace.](https://github.com/lewfulef/server//) donde encontrarás el repositorio de dicha parte del proyecto.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Para la instalación del servidor debes realizar un clone o fork del repositorio enlazado arriba 👆. 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+`Terminal 2`
+```shell
+$ cd server
+$ npm install
+$ npm run dev
+```
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Una vez hecho esto en cada uno, deberás crear las variables de entorno en cada carpeta.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+`./client/.env`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```
+REACT_APP_BACKEND_URL="http://localhost:3005"
+REACT_APP_MERCADO_PAGO_PUBLIC_KEY='TU-NÚMERO-DE-MERCADOPAGO-PARA-ACTIVAR-PAGOS'
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+`./server/.env`
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```
+PORT=3005
+MONGODB_URI='mongodb://localhost:27017/proyecto-final-guitarras'
+SECRET=PALABRASECRETADEBESCAMBIARLA
+PROD_ACCESS_TOKEN='TU-NÚMERO-DE-MERCADOPAGO-PARA-ACTIVAR-PAGOS'
+```
