@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/client/static/css/main.3126efcc.chunk.css",
+    "main.js": "/client/static/js/main.cb93483c.chunk.js",
+    "main.js.map": "/client/static/js/main.cb93483c.chunk.js.map",
+    "runtime-main.js": "/client/static/js/runtime-main.ea36ddc6.js",
+    "runtime-main.js.map": "/client/static/js/runtime-main.ea36ddc6.js.map",
+    "static/js/2.d19155fd.chunk.js": "/client/static/js/2.d19155fd.chunk.js",
+    "static/js/2.d19155fd.chunk.js.map": "/client/static/js/2.d19155fd.chunk.js.map",
+    "static/js/3.44ff02ff.chunk.js": "/client/static/js/3.44ff02ff.chunk.js",
+    "static/js/3.44ff02ff.chunk.js.map": "/client/static/js/3.44ff02ff.chunk.js.map",
+    "index.html": "/client/index.html",
+    "static/css/main.3126efcc.chunk.css.map": "/client/static/css/main.3126efcc.chunk.css.map",
+    "static/js/2.d19155fd.chunk.js.LICENSE.txt": "/client/static/js/2.d19155fd.chunk.js.LICENSE.txt",
+    "static/media/donasBanner.89d94b01.png": "/client/static/media/donasBanner.89d94b01.png",
+    "static/media/logotipo.59702fc4.png": "/client/static/media/logotipo.59702fc4.png",
+    "static/media/logotitle.fd34c1d6.png": "/client/static/media/logotitle.fd34c1d6.png",
+    "static/media/pexels-karolina-grabowska-4472061.2dbee7f4.jpg": "/client/static/media/pexels-karolina-grabowska-4472061.2dbee7f4.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ea36ddc6.js",
+    "static/js/2.d19155fd.chunk.js",
+    "static/css/main.3126efcc.chunk.css",
+    "static/js/main.cb93483c.chunk.js"
+  ]
+}
